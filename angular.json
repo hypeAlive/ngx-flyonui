@@ -36,31 +36,36 @@
         }
       }
     },
-    "flyonui-demo": {
+    "demo": {
       "projectType": "application",
-      "schematics": {},
-      "root": "projects/flyonui-demo",
-      "sourceRoot": "projects/flyonui-demo/src",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "projects/demo",
+      "sourceRoot": "projects/demo/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/flyonui-demo",
-            "index": "projects/flyonui-demo/src/index.html",
-            "browser": "projects/flyonui-demo/src/main.ts",
+            "outputPath": "dist/demo",
+            "index": "projects/demo/src/index.html",
+            "browser": "projects/demo/src/main.ts",
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "projects/flyonui-demo/tsconfig.app.json",
+            "tsConfig": "projects/demo/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/flyonui-demo/public"
+                "input": "projects/demo/public"
               }
             ],
             "styles": [
-              "projects/flyonui-demo/src/styles.css"
+              "projects/demo/src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,10 +97,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "flyonui-demo:build:production"
+              "buildTarget": "demo:build:production"
             },
             "development": {
-              "buildTarget": "flyonui-demo:build:development"
+              "buildTarget": "demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -110,15 +115,16 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "projects/flyonui-demo/tsconfig.spec.json",
+            "tsConfig": "projects/demo/tsconfig.spec.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/flyonui-demo/public"
+                "input": "projects/demo/public"
               }
             ],
             "styles": [
-              "projects/flyonui-demo/src/styles.css"
+              "projects/demo/src/styles.scss"
             ],
             "scripts": []
           }

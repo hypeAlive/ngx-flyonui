@@ -9,10 +9,9 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
     "paths": {
-      "ngx-flyonui": [
-        "./dist/ngx-flyonui"
-      ]
+      "ngx-flyonui": ["projects/ngx-flyonui/src/public-api.ts"]
     },
     "skipLibCheck": true,
     "isolatedModules": true,
