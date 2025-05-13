@@ -11,7 +11,8 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "ngx-flyonui": ["projects/ngx-flyonui/src/public-api.ts"]
+      "ngx-flyonui": ["projects/ngx-flyonui/core/src/index.ts"],
+      "ngx-flyonui/button": ["projects/ngx-flyonui/button/src/index.ts"]
     },
     "skipLibCheck": true,
     "isolatedModules": true,

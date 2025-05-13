@@ -1,22 +1,40 @@
 {
   "name": "ngx-flyonui",
   "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^19.2.0",
-    "@angular/core": "^19.2.0"
+  "private": false,
+  "keywords": [
+    "angular",
+    "design-system",
+    "tailwind",
+    "tailwindcss",
+    "flyonui",
+    "daisyui",
+    "flyonui-angular",
+    "daisyui-angular"
+  ],
+  "bugs": {
+    "url": "https://github.com/hypeAlive/ngx-flyonui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypeAlive/ngx-flyonui.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nicolas Fritz",
+    "email": "info@nicolasfritz.dev",
+    "url": "https://github.com/hypeAlive"
   },
   "exports": {
     "./styles": {
-      "sass": "./src/styles/**/*.css"
+      "sass": "./styles/**/*.css"
     }
   },
-  "dependencies": {
-    "tslib": "^2.3.0"
-  },
-  "devDependencies": {
-    "tailwindcss": "^4.1.6",
-    "@tailwindcss/postcss": "^4.1.6",
-    "postcss": "^8.5.3"
-  },
-  "sideEffects": false
+  "peerDependencies": {
+    "@angular/common": ">=19.0.0 < 20.0.0",
+    "@angular/core": ">=19.0.0 < 20.0.0",
+    "@ng-primitives/state": "0.38.0",
+    "tailwind-merge": "3.3.0",
+    "class-variance-authority": "0.7.1"
+  }
 }

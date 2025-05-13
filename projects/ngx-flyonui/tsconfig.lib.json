@@ -12,5 +12,5 @@
   "exclude": [
     "**/*.spec.ts"
   ],
-  "include": ["**/*.ts", "./src/styles/**/*.css"]
+  "include": ["**/*.ts", "./styles/**/*.css"]
 }

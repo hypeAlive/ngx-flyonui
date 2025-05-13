@@ -6,8 +6,8 @@
     "ngx-flyonui": {
       "projectType": "library",
       "root": "projects/ngx-flyonui",
-      "sourceRoot": "projects/ngx-flyonui/src",
-      "prefix": "lib",
+      "sourceRoot": "projects/ngx-flyonui",
+      "prefix": "flyonui",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
