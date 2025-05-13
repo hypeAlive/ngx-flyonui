@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
 import {FlyOnUiButtonComponent} from 'ngx-flyonui/button';
 import {NgClass} from '@angular/common';
+import {NgIcon, provideIcons} from '@ng-icons/core';
+import {heroUser} from '@ng-icons/heroicons/outline';
+import {FlyonUiIconComponent} from '../../../ngx-flyonui/icon/src';
 
 @Component({
   selector: 'app-root',
   imports: [
     FlyOnUiButtonComponent,
+    FlyonUiIconComponent,
     NgClass
   ],
+  viewProviders: [provideIcons({heroUser})],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -23,4 +28,6 @@ export class AppComponent {
   protected toggle2() {
     this.off = !this.off;
   }
+
+  protected readonly heroUser = heroUser;
 }

@@ -18,6 +18,8 @@
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
     "ngx-flyonui": "^0.0.0",
+    "@ng-icons/core": "^31.3.0",
+    "@ng-icons/heroicons": "^31.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "ng-primitives": "0.38.0",
