@@ -1,63 +1,36 @@
-# NgxFlyonui
+<div align="center">
+  <h1>🚧 ngx-flyonui (unreleased)🚧</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+  <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 20px;">
+    <a href="https://angular.io">
+      <div style="width: 100px; height: 100px; border-radius: 20%; overflow: hidden; display: flex; align-items: center; justify-content: center; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));">
+        <img alt="Angular Logo" width="140" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Angular_gradient.png/1200px-Angular_gradient.png" style="object-fit: contain; transform: scale(1.28);">
+      </div>
+    </a>
+    <span style="font-size: 30px; font-weight: bold; margin: 0 10px;">✖</span>
+    <a href="https://flyonui.dev">
+      <img alt="FlyonUI Logo" width="100" src="https://cdn-1.webcatalog.io/catalog/flyonui/flyonui-icon-filled-256.png?v=1745328767986" style="border-radius: 20%; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));">
+    </a>
+  </div>
 
-## Code scaffolding
+  <p>
+    Build advanced user interfaces even faster with components on top of Angular and Tailwind CSS
+  </p>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+  <p>
+    <a href="https://www.npmjs.com/package/ngx-flyonui">
+      <img src="https://img.shields.io/npm/dt/ngx-flyonui.svg" alt="Total Downloads">
+    </a>
+    <a href="https://badge.fury.io/js/ngx-flyonui">
+      <img alt="Latest release" src="https://img.shields.io/badge/version-0.1.0-blue.svg">
+    </a>
+    <a href="https://flyonui.dev/docs/license/">
+      <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
+    </a>
+  </p>
+</div>
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+**`ngx-flyonui` is an Angular wrapper for the FlyonUI component library, providing seamless integration between FlyonUI and Angular applications.**
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the library, run:
-
-```bash
-ng build ngx-flyonui
-```
-
-This command will compile your project, and the build artifacts will be placed in the `dist/` directory.
-
-### Publishing the Library
-
-Once the project is built, you can publish your library by following these steps:
-
-1. Navigate to the `dist` directory:
-   ```bash
-   cd dist/ngx-flyonui
-   ```
-
-2. Run the `npm publish` command to publish your library to the npm registry:
-   ```bash
-   npm publish
-   ```
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
