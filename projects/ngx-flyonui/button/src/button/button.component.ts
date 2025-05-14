@@ -5,10 +5,10 @@ import {FlyonuiBaseButtonDirective} from '../base/base-button.directive';
 
 @Component({
   selector: `
-    button[flyonuiButton],
-    a[flyonuiButton],
-    input[flyonuiButton],
-    flyonui-button
+    button[fuiButton],
+    a[fuiButton],
+    input[fuiButton],
+    fui-button
   `,
   hostDirectives: [
     {
