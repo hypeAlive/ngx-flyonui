@@ -3,7 +3,7 @@
 
   <div align="center">
   <a href="https://github.com/yourusername/ngx-flyonui">
-    <img src="../../assets/hero-img.png" alt="Angular ✖ FlyonUI" width="300">
+    <img src="./assets/hero-img.png" alt="Angular ✖ FlyonUI" width="300">
   </a>
 </div>
 
