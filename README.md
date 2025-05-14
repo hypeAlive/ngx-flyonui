@@ -1,1 +1,1 @@
-projects/ngx-flyonui/README.md
+./projects/ngx-flyonui/README.md
