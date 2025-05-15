@@ -1,6 +1,6 @@
 {
   "name": "ngx-flyonui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "keywords": [
     "angular",
@@ -36,6 +36,7 @@
     "@ng-icons/core": "31.3.0",
     "@ng-primitives/state": "0.38.0",
     "tailwind-merge": "3.3.0",
-    "class-variance-authority": "0.7.1"
+    "class-variance-authority": "0.7.1",
+    "node-waves": "^0.7.6"
   }
 }

@@ -2,6 +2,9 @@ import {
   Component,
 } from '@angular/core';
 import {FlyonuiBaseButtonDirective} from '../base/base-button.directive';
+import {AfterViewInit} from '@angular/core';
+import "node-waves/dist/waves.min.js"
+import * as Waves from "node-waves"
 
 @Component({
   selector: `
@@ -19,4 +22,8 @@ import {FlyonuiBaseButtonDirective} from '../base/base-button.directive';
   template: `<ng-content/>`,
   standalone: true,
 })
-export class FlyOnUiButtonComponent {}
+export class FlyOnUiButtonComponent implements AfterViewInit {
+  ngAfterViewInit(): void {
+    Waves.attach('.waves');
+  }
+}

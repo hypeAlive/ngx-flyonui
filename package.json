@@ -20,6 +20,7 @@
     "ngx-flyonui": "^0.0.0",
     "@ng-icons/core": "^31.3.0",
     "@ng-icons/heroicons": "^31.3.0",
+    "node-waves": "^0.7.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "ng-primitives": "0.38.0",
