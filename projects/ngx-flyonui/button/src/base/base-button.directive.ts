@@ -10,7 +10,7 @@ import {
   flyonuiBaseButtonVariants,
   FlyonuiBaseModifiers
 } from './theme';
-import {cn, FlyonuiClassManagement} from 'ngx-flyonui';
+import {cn, FlyonuiClassManagement, FuiWavesDirective} from 'ngx-flyonui';
 
 @Directive({
   standalone: true,
@@ -18,11 +18,16 @@ import {cn, FlyonuiClassManagement} from 'ngx-flyonui';
     {
       directive: NgpButton,
       inputs: ['disabled']
+    },
+    {
+      directive: FuiWavesDirective,
+      inputs: ["fuiWaveColor", "fuiWaves", "fuiColor"]
     }
   ]
 })
 export class FlyonuiBaseButtonDirective extends FlyonuiClassManagement {
   readonly button = inject(NgpButton);
+  readonly fuiWaves = inject(FuiWavesDirective);
 
   readonly fuiColor = input<keyof FlyonuiBaseButtonColors>("neutral");
   readonly fuiStyle = input<keyof FlyonuiBaseButtonStyles | undefined>(undefined);
@@ -36,7 +41,7 @@ export class FlyonuiBaseButtonDirective extends FlyonuiClassManagement {
         fuiStyle: this.fuiStyle(),
         fuiState: this.fuiState() || (this.button.disabled() ? 'disabled' : undefined),
         fuiModifier: this.fuiModifier()
-      }))
+      }), this.fuiWaves.waveVariants())
     })
   }
 
