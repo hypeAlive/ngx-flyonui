@@ -14,7 +14,7 @@ import {AfterViewInit} from '@angular/core';
   hostDirectives: [
     {
       directive: FlyonuiBaseButtonDirective,
-      inputs: ["fuiColor", "fuiStyle", "fuiModifier", "class", "ngClass"],
+      inputs: ["fuiColor", "fuiStyle", "fuiModifier", "fuiSize", "fuiRounded", "class", "ngClass"],
     }
   ],
   template: `<ng-content/>`,

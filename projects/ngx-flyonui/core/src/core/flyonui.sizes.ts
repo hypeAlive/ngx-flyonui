@@ -1,4 +1,5 @@
 export interface FlyonuiSizes {
+  responsive: string;
   xs: string;
   sm: string;
   md: string;
