@@ -17,7 +17,6 @@ import {AfterViewInit} from '@angular/core';
       inputs: ["fuiColor", "fuiStyle", "fuiModifier", "fuiSize", "fuiRounded", "class", "ngClass"],
     }
   ],
-  template: `<ng-content/>`,
-  standalone: true,
+  template: `<ng-content/>`
 })
 export class FlyOnUiButtonComponent {}

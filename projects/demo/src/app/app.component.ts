@@ -3,12 +3,13 @@ import {FlyOnUiButtonComponent} from 'ngx-flyonui/button';
 import {NgClass} from '@angular/common';
 import {NgIcon, provideIcons} from '@ng-icons/core';
 import {heroUser} from '@ng-icons/heroicons/outline';
-import {FlyonUiIconComponent} from '../../../ngx-flyonui/icon/src';
+import {FlyonUiIconComponent, FlyonuiSpinnerComponent} from 'ngx-flyonui/icon';
 
 @Component({
   selector: 'app-root',
   imports: [
     FlyOnUiButtonComponent,
+    FlyonuiSpinnerComponent,
     FlyonUiIconComponent,
     NgClass
   ],

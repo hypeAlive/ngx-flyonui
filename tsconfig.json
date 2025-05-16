@@ -12,7 +12,8 @@
     "baseUrl": ".",
     "paths": {
       "ngx-flyonui": ["projects/ngx-flyonui/core/src/index.ts"],
-      "ngx-flyonui/button": ["projects/ngx-flyonui/button/src/index.ts"]
+      "ngx-flyonui/button": ["projects/ngx-flyonui/button/src/index.ts"],
+      "ngx-flyonui/icon": ["projects/ngx-flyonui/icon/src/index.ts"]
     },
     "skipLibCheck": true,
     "isolatedModules": true,

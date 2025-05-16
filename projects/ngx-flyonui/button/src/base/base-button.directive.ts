@@ -13,7 +13,6 @@ import {
 import {cn, FlyonuiClassManagement, FuiWavesDirective, InputBoolean, transformInputBool} from 'ngx-flyonui';
 
 @Directive({
-  standalone: true,
   hostDirectives: [
     {
       directive: NgpButton,
